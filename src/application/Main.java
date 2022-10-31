@@ -632,7 +632,7 @@ public class Main extends Application {
         		con.close();
         	}
         } catch ( SQLException e ) {
-            e.printStackTrace() ;	//本番はコメントアウト
+            // e.printStackTrace() ;	//本番はコメントアウト
         }
         draw();    	
     }
@@ -660,7 +660,7 @@ public class Main extends Application {
         		con.close();
         	}
         } catch ( SQLException e ) {
-            e.printStackTrace();	//本番はコメントアウト
+            // e.printStackTrace();	//本番はコメントアウト
         }
         btn_delete.setDisable(true);
 		btn_edit.setDisable(true);
@@ -684,7 +684,7 @@ public class Main extends Application {
 		        con.close();
 		    }
 		} catch ( SQLException e ) {
-		    e.printStackTrace();	//本番はコメントアウト
+		    // e.printStackTrace();	//本番はコメントアウト
 		}
 		btn_delete.setDisable(true);
 		btn_edit.setDisable(true);
